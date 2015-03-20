@@ -1,7 +1,7 @@
 name: rts
 version: 0.0.1
 inherits: wercker/default
-type: main
+type: service
 platform: ubuntu@12.04
 description: wercker box for rts
 build:
