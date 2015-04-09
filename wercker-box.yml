@@ -11,8 +11,4 @@ keywords:
   - boost
   - log4cxx
   - cmake3
-build:
-  steps:
-    - validate-wercker-box
-script: |
-  sudo apt-get update -qq
+script: sudo apt-get update -qq
