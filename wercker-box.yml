@@ -1,6 +1,6 @@
 name: tobscher-rts
 version: 0.1.0
-inherits: wercker/default
+inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: main
 platform: ubuntu@12.04
 description: wercker box for rts
