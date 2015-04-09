@@ -10,7 +10,6 @@ keywords:
   - glew
   - boost
   - log4cxx
-  - "Qt 5.4"
   - cmake3
 build:
   steps:
