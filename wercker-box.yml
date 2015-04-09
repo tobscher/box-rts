@@ -1,4 +1,4 @@
-name: rts
+name: tobscher-rts
 version: 0.0.1
 inherits: wercker/default
 type: main
