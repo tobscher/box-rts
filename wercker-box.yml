@@ -1,6 +1,6 @@
 name: rts
-version: 0.0.2
-inherits: wercker/default
+version: 0.2.1
+inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: main
 platform: ubuntu@12.04
 description: wercker box for rts
@@ -10,11 +10,8 @@ keywords:
   - glew
   - boost
   - log4cxx
-  - "Qt 5.4"
+  - Qt 5.4
   - cmake3
-build:
-  steps:
-    - validate-wercker-box
 script: |
   sudo apt-get update -qq
   sudo apt-get install -y xorg-dev libglu1-mesa-dev libboost-all-dev liblog4cxx10 liblog4cxx10-dev
